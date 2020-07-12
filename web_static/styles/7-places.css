@@ -3,7 +3,6 @@ section.places {
         justify-content: flex-start;
         align-items: flex-start;
         flex-wrap: wrap;
-        font-size: 30px;
         width: 100%;
         margin: 0px 20px;
 }
@@ -23,7 +22,14 @@ section.places article {
         border-radius: 4px;
 }
 
-section.places h2 {
+section.places h1 {
         display: flex;
+        align-content: flex-start;
+        font-size: 30px;
+}
+
+article h2 {
+        display: flex;
+        font-size: 30px;
         justify-content: center;
 }
