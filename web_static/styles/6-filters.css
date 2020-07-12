@@ -89,6 +89,7 @@ section.filters ul.popover {
 
 section.filters div:hover > ul {
         display: block;
+        z-index: 999;
 }
 
 section.filters ul.popover li {
